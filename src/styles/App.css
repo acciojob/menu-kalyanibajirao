@@ -1,12 +1,34 @@
-h1 {
-    color: #27aedb;
-    text-align: center;
-    }
-    
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
 
-button{
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.menu-item img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.menu-item div {
+  text-align: left;
+}
+
+.menu-item h2 {
+  margin: 0;
+}
+
+.menu-item p {
+  margin: 5px 0;
 }
